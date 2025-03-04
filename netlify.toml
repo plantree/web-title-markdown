@@ -1,3 +1,4 @@
 [build]
 functions = "netlify/functions"
 publish = "out"
+command = "npm install && npm run build"
