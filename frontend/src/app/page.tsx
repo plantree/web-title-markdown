@@ -35,6 +35,7 @@ export default function Home() {
       const data = await response.json();
       setMarkdown(data.markdown);
       setTitle(data.title);
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
     } catch (err) {
       setError('Error fetching webpage title. Please check the URL and try again.');
     } finally {
