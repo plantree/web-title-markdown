@@ -1,4 +1,2 @@
 [build]
 functions = "netlify/functions"
-publish = "frontend/out"
-command = "cd frontend && npm install && npm run build"
